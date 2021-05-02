@@ -60,13 +60,13 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
-  Category.update({
+  Category.update(req.body, {
     where: {
       id: req.params.id
     }
   })
   .then(putData => {
-    if (putData) {
+    if (!putData) {
       res.status(404).json({ message: 'no category found with this id!' })
     }
     res.json(putData)
