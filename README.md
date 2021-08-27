@@ -1,7 +1,7 @@
 # ecommerce-backend
 
 ## Purpose
-* For this assignment, I am a manager for an internet company and I want to have a back-end to my e-commerce website just like any other e-commerce comapny
+* For this assignment, I am a manager for an internet company and I want to have a back-end to my e-commerce website just like any other e-commerce company
 
 ## Table of Contents
 * [Goals](#Goals)
